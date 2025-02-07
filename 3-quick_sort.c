@@ -52,6 +52,8 @@ return (i + 1);
 /**
  * quick_sort_recursive - implement quick sort
  * @array: input array
+ * @low: low value
+ * @high: high value
  * @size: size of array
 */
 
