@@ -1,6 +1,5 @@
 #include "sort.h"
 
-
 /**
  * swap - swapping
  * @a: first element
@@ -80,5 +79,5 @@ if (array == NULL || size < 2)
 {
 return;
 }
-quick_sort_recursive(array, 0,size - 1, size);
+quick_sort_recursive(array, 0, size - 1, size);
 }
