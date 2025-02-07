@@ -74,7 +74,6 @@ quick_sort_recursive(array, pivot_index + 1, high, size);
  * @size: size of array
 */
 
-
 void quick_sort(int *array, size_t size)
 {
 if (array == NULL || size < 2)
