@@ -36,7 +36,7 @@ print_array(array, size);
 }
 j++;
 }
-i++;    
+i++;
 if (swapped == 0)
 {
 break;
