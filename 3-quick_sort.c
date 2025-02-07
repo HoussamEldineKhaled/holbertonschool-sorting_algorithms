@@ -40,6 +40,7 @@ swap(&array[i], &array[j]);
 print_array(array, size);
 }
 }
+j++;
 }
 if (array[i + 1] != array[high])
 {
@@ -56,7 +57,7 @@ return (i + 1);
 */
 
 
-void quick_sort_recursive(int *array, size_t size)
+void quick_sort_recursive(int *array, int low, int high, size_t size)
 {
 int pivot_index = 0;
 if (low < high)
